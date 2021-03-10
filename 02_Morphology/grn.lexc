@@ -1,0 +1,43 @@
+Multichar_Symbols
+
+%>                   ! Frontera de morfema
+%<n%>                ! Nombre
+%<gen%>              ! Genitivo
+%<loc%>              ! Locativo
+%{m%}		     ! multicharacter
+%<der_kue%>	     ! multicharacterr
+%<icha%>	     ! comparative
+%<comp%>             ! comp
+%{g%}	             ! sdf
+%{n%}	             ! cvg
+%<pl%>		     ! bgt
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON N
+
+%<n%>: CASE ;
+%<n%>: SUBST ;
+
+LEXICON SUBST
+
+%<der_kue%>:%>kue # "weight: 1.0" ;
+
+LEXICON CASE
+#;
+%<loc%>:%>%{m%}e #; ! "a, en"
+%<gen%>:%>gui #; ! "de"
+%<comp%>:%>icha #; ! "ii"
+%<pl%>:%>%{n%}%{g%}uéra CASE ;
+
+LEXICON Nouns
+
+ava:ava N ; ! "raza, gente"
+óga:óga N ; ! "casa"
+irũ:irũ N ; ! "amigo"
+apyka:apyka N ; ! "silla"
+tembiasa:tembiasa N ; ! "experiencia"
+tembiasakue:tembiasakue N ; ! "historia"
+akãvai:akãvai N ; ! "locura"
