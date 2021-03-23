@@ -1,0 +1,35 @@
+"<ذهبت>"
+	"*ذهبت"
+"<إلى>"
+	"إِلَى" ADP AdpType=Prep
+"<البيت>"
+	"بَيت" NOUN Case=Acc Definite=Def Number=Sing
+;	"بَيت" NOUN Case=Gen Definite=Def Number=Sing REMOVE:19
+;	"بَيت" NOUN Case=Nom Definite=Def Number=Sing REMOVE:18
+"<لأجد>"
+	"*لأجد"
+"<أمي>"
+	"*أمي"
+"<.>"
+	"." PUNCT
+
+"<و>"
+	"وَ" CCONJ SELECT:20
+;	"و" X Abbr=Yes SELECT:20
+;	"و" X SELECT:20
+"<ليست>"
+	"لَيس" AUX Aspect=Perf Gender=Fem Number=Sing Person=3 Voice=Act
+;	"لَيس" VERB Aspect=Perf Gender=Fem Number=Sing Person=3 Voice=Act REMOVE:17
+;	"لَيِس" VERB Aspect=Perf Gender=Fem Number=Sing Person=3 Voice=Act REMOVE:17
+"<هي>"
+	"هُوَ" PRON Case=Nom Gender=Fem Number=Sing Person=3 PronType=Prs
+"<عند>"
+	"عِندَ" ADP AdpType=Prep Case=Acc
+	"عِندَ" ADP AdpType=Prep Case=Gen
+"<البيت>"
+	"بَيت" NOUN Case=Acc Definite=Def Number=Sing
+;	"بَيت" NOUN Case=Gen Definite=Def Number=Sing REMOVE:19
+;	"بَيت" NOUN Case=Nom Definite=Def Number=Sing REMOVE:18
+"<.>"
+	"." PUNCT
+
